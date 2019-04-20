@@ -37,7 +37,7 @@
         "Don't Display State"
       ]
     },
-        "botw": {
+     "botw": {
       "fullname": "Breath of the Wild",
       "appiconid": "botw",
       "states": [
@@ -45,6 +45,13 @@
         "Finding Korok Seeds",
         "Completing Shrines",
         "Exploring Hyrule"
+      ]
+    },
+    "tetris99": {
+      "fullname": "Tetris 99",
+      "appiconid": "tetris99",
+      "states": [
+        "Don't Display State"
       ]
     }
  
