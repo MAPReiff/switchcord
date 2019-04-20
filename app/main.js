@@ -32,9 +32,9 @@ let tray = null;
 // init some objects
 
 var menuTemplate = [
-  {label: 'Settings', type: 'normal', click: function(){
-      createSubWindow();
-  }},
+  // {label: 'Settings', type: 'normal', click: function(){
+  //     createSubWindow();
+  // }},
   {label: 'Quit', type: 'normal', click: function(){
     app.isQuitting = true;
     if (subWindow) subWindow.destroy();
@@ -60,12 +60,14 @@ var trayTemplate = [
 // handle dev vars first
 
 if (dev) {
-  var exampleurl = 'http://azureagst.pw/switchrpc/devgames.json'
+  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/app/games.json'
   menuTemplate.push({label: 'Inspect', click: function(){subWindow.toggleDevTools()}});
 } else {
-  var exampleurl = 'http://azureagst.pw/switchrpc/examplegames.json'
-  require('update-electron-app')({repo: 'Azure-Agst/switchrpc'});
+  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/app/games.json'
+  require('update-electron-app')({repo: 'MAPReiff/switchrpc'});
 }
+
+
 
 // ============================================================================
 // main window function
@@ -145,7 +147,7 @@ function createSubWindow() {
 app.on('ready', () => {
 
   if (process.platform != "darwin"){
-    require('update-electron-app')({repo: "Azure-Agst/switchrpc/"});
+    require('update-electron-app')({repo: "MAPReiff/switchrpc/"});
   }
 
   //check for json

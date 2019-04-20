@@ -1,0 +1,57 @@
+{
+  "gamelist": [
+    "IMPORTANT",
+    "mk8d",
+    "smashU",
+    "pkmpika",
+    "pkmev"
+  ],
+  "games": {
+    "IMPORTANT": {
+      "fullname": "PLEASE SEE GITHUB",
+      "appiconid": "home",
+      "states": [
+        "Don't Display State"
+      ]
+    },
+
+    "mk8d": {
+      "fullname": "Mario Kart 8 Deluxe",
+      "appiconid": "mk8d",
+      "states": [
+        "Don't Display State",
+        "Grand Prix",
+        "Time Trials",
+        "VS Race",
+        "Battle",
+        "Racing Online",
+        "Mario Kart TV"
+      ]
+    },
+    "smashU": {
+      "fullname": "Super Smash Bros. Ultimate",
+      "appiconid": "smashU",
+      "states": [
+        "Don't Display State",
+        "World of Light",
+        "Mob Smash",
+        "Training",
+        "Classic Mode"
+      ]
+    },
+    "pkmpika": {
+      "fullname": "Pokémon: Let's Go, Pikachu!",
+      "appiconid": "pkmpika",
+      "states": [
+        "Don't Display State"
+      ]
+    },
+    "pkmev": {
+      "fullname": "Pokémon: Let's Go, Eevee!",
+      "appiconid": "pkmpev",
+      "states": [
+        "Don't Display State"
+      ]
+    }
+  }
+}

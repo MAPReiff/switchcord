@@ -1,5 +1,5 @@
 node_modules/
 app.asar
 packages/
-games.json
+# games.json
 dist/
