@@ -36,6 +36,16 @@
       "states": [
         "Don't Display State"
       ]
-    }
-  
+    },
+        "botw": {
+      "fullname": "Breath of the Wild",
+      "appiconid": "botw",
+      "states": [
+        "Don't Display State",
+        "Finding Korok Seeds",
+        "Completing Shrines",
+        "Exploring Hyrule"
+      ]
+    },
+ 
 }
