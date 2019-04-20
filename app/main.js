@@ -60,12 +60,14 @@ var trayTemplate = [
 // handle dev vars first
 
 if (dev) {
-  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/app/games.json'
+  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/master/app/games.json'
   menuTemplate.push({label: 'Inspect', click: function(){subWindow.toggleDevTools()}});
 } else {
-  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/app/games.json'
+  var exampleurl = 'https://raw.githubusercontent.com/MAPReiff/switchcord/master/app/games.json'
   require('update-electron-app')({repo: 'MAPReiff/switchrpc'});
 }
+
+var gameURL = 'https://raw.githubusercontent.com/MAPReiff/switchcord/master/app/games.json'
 
 
 
@@ -153,7 +155,13 @@ app.on('ready', () => {
   //check for json
   if (!fs.existsSync('games.json')){
     console.log("games.json does not exist!")
-    request.get(exampleurl).pipe(fs.createWriteStream('games.json'));
+    request.get(gameURL).pipe(fs.createWriteStream('games.json'));
+    while(!fs.existsSync('./games.json')){}
+  }
+
+  if (fs.existsSync('games.json')){
+    console.log("games.json will update")
+    request.get(gameURL).pipe(fs.createWriteStream('games.json'));
     while(!fs.existsSync('./games.json')){}
   }
 
