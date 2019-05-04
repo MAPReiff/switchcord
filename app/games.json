@@ -60,6 +60,13 @@
       "states": [
         "Don't Display State"
       ]
+    },
+    "tmvs": {
+      "fullname": "Timberman VS",
+      "appiconid": "tmvs",
+      "states": [
+        "Don't Display State"
+      ]
     }
  
 }
