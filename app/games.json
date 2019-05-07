@@ -67,6 +67,13 @@
       "states": [
         "Don't Display State"
       ]
+    },
+    "smodyssey": {
+      "fullname": "Super Mario Odyssey",
+      "appiconid": "smodyssey",
+      "states": [
+        "Don't Display State"
+      ]
     }
  
 }
