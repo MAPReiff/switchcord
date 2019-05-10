@@ -1,79 +1,79 @@
 {
-    "mk8d": {
-      "fullname": "Mario Kart 8 Deluxe",
-      "appiconid": "mk8d",
-      "states": [
-        "Don't Display State",
-        "Grand Prix",
-        "Time Trials",
-        "VS Race",
-        "Battle",
-        "Racing Online",
-        "Mario Kart TV"
-      ]
-    },
-    "smashu": {
-      "fullname": "Super Smash Bros. Ultimate",
-      "appiconid": "smashu",
-      "states": [
-        "Don't Display State",
-        "World of Light",
-        "Mob Smash",
-        "Training",
-        "Classic Mode"
-      ]
-    },
-    "pkmpika": {
-      "fullname": "Pokémon: Let's Go, Pikachu!",
-      "appiconid": "pkmpika",
-      "states": [
-        "Don't Display State"
-      ]
-    },
-    "pkmev": {
-      "fullname": "Pokémon: Let's Go, Eevee!",
-      "appiconid": "pkmpev",
-      "states": [
-        "Don't Display State"
-      ]
-    },
-     "botw": {
-      "fullname": "Breath of the Wild",
-      "appiconid": "botw",
-      "states": [
-        "Don't Display State",
-        "Finding Korok Seeds",
-        "Completing Shrines",
-        "Exploring Hyrule"
-      ]
-    },
-    "tetris99": {
-      "fullname": "Tetris 99",
-      "appiconid": "tetris99",
-      "states": [
-        "Don't Display State"
-      ]
-    },
-     "xeno2": {
-      "fullname": "Xenoblade Chronicles 2",
-      "appiconid": "xeno2",
-      "states": [
-        "Don't Display State"
-      ]
-    },
-    "tmvs": {
-      "fullname": "Timberman VS",
-      "appiconid": "tmvs",
-      "states": [
-        "Don't Display State"
-      ]
-    },
-    "smodyssey": {
-      "fullname": "Super Mario Odyssey",
-      "appiconid": "smodyssey",
-      "states": [
-        "Don't Display State"
-      ]
-    }
- 
+	"mk8d": {
+		"fullname": "Mario Kart 8 Deluxe",
+		"appiconid": "mk8d",
+		"states": [
+			"Don't Display State",
+			"Grand Prix",
+			"Time Trials",
+			"VS Race",
+			"Battle",
+			"Racing Online",
+			"Mario Kart TV"
+		]
+	},
+	"smashu": {
+		"fullname": "Super Smash Bros. Ultimate",
+		"appiconid": "smashu",
+		"states": [
+			"Don't Display State",
+			"World of Light",
+			"Mob Smash",
+			"Training",
+			"Classic Mode"
+		]
+	},
+	"pkmpika": {
+		"fullname": "Pokémon: Let's Go, Pikachu!",
+		"appiconid": "pkmpika",
+		"states": [
+			"Don't Display State"
+		]
+	},
+	"pkmev": {
+		"fullname": "Pokémon: Let's Go, Eevee!",
+		"appiconid": "pkmpev",
+		"states": [
+			"Don't Display State"
+		]
+	},
+	"botw": {
+		"fullname": "Breath of the Wild",
+		"appiconid": "botw",
+		"states": [
+			"Don't Display State",
+			"Finding Korok Seeds",
+			"Completing Shrines",
+			"Exploring Hyrule"
+		]
+	},
+	"tetris99": {
+		"fullname": "Tetris 99",
+		"appiconid": "tetris99",
+		"states": [
+			"Don't Display State"
+		]
+	},
+	"xeno2": {
+		"fullname": "Xenoblade Chronicles 2",
+		"appiconid": "xeno2",
+		"states": [
+			"Don't Display State"
+		]
+	},
+	"tmvs": {
+		"fullname": "Timberman VS",
+		"appiconid": "tmvs",
+		"states": [
+			"Don't Display State"
+		]
+	},
+	"smodyssey": {
+		"fullname": "Super Mario Odyssey",
+		"appiconid": "smodyssey",
+		"states": [
+			"Don't Display State"
+		]
+	}
+
 }
