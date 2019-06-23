@@ -81,6 +81,13 @@
 		"states": [
 			"Don't Display State"
 		]
+	},
+	"xenoverse2": {
+		"fullname": "Dragon Ball Xenoverse 2",
+		"appiconid": "xenoverse2",
+		"states": [
+			"Don't Display State"
+		]
 	}
 
 }
