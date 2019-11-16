@@ -107,6 +107,20 @@
 		"states": [
 			"Don't Display State"
 		]
+	},
+    "pksword": {
+		"fullname": "Pokémon Sword",
+		"appiconid": "pksword",
+		"states": [
+			"Don't Display State"
+		]
+	},
+        "pkshield": {
+		"fullname": "Pokémon Shield",
+		"appiconid": "pkshield",
+		"states": [
+			"Don't Display State"
+		]
 	}
 
 }
