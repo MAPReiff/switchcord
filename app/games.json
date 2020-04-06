@@ -121,6 +121,13 @@
 		"states": [
 			"Don't Display State"
 		]
+	},
+	"animalcorssingnh": {
+		"fullname": "Animal Crossing: New Horizons",
+		"appiconid": "animalcorssingnh",
+		"states": [
+			"Don't Display State"
+		]
 	}
 
 }
